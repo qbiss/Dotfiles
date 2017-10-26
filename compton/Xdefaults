@@ -1,0 +1,84 @@
+XTerm*termName:  xterm-256color
+xterm*geometry:           70x25
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollKey:          true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          false
+xterm*rightScrollBar:     true
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+XTerm*metaSendsEscape: true
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+URxvt*letterSpace: 1
+
+!URxvt*font:              
+xft:gohufont-uni:size=8
+
+URxvt.font: xft:gohufont:style=Normal:size=8
+URxvt.boldFont: 
+xft:gohufont:style=Bold:size=8
+
+urxvt*termName:            rxvt-unicode
+urxvt*scrollBar:        false
+
+! Default shell
+urxvt*shell: /bin/sh
+
+! Perl scripts
+URxvt.perl-lib: /usr/lib/urxvt/perl/
+URxvt.perl-ext-common: default,clipboard-osc,vtwheel
+
+urxvt*matcher.button:    1
+URxvt*geometry:            78x25
+!URxvt.depth: 32
+URxvt*cursorBlink: true
+!Colors
+! special
+*.foreground:   #e3e2e4
+*.background:   #000000
+*.cursorColor:  #e3e2e4
+
+! black
+*.color0:       #000000
+*.color8:       #d18b53
+
+! red
+*.color1:       #111013
+*.color9:       #a4be42
+
+! green
+*.color2:       #242227
+*.color10:      #33d3a7
+
+! yellow
+*.color3:       #3d3b42
+*.color11:      #f6afd1
+
+! blue
+*.color4:       #5d5a64
+*.color12:      #6ee0bb
+
+! magenta
+*.color5:       #84818a
+*.color13:      #43c8a1
+
+! cyan
+*.color6:       #b0aeb4
+*.color14:      #3ccca3
+
+! white
+*.color7:       #e3e2e4
+*.color15:      #66cbe9
+
