@@ -1,4 +1,4 @@
-set autoindent
+sset autoindent
 set backspace=indent,eol,start
 set completeopt=longest,menuone
 set cursorline
