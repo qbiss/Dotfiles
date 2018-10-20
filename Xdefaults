@@ -1,0 +1,81 @@
+XTerm*termName:  xterm-256color
+xterm*geometry:           110x45
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollKey:          true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          false
+xterm*rightScrollBar:     true
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+XTerm*metaSendsEscape: true
+URxvt*iconFile:            /home/kuba/.icons/Uniform/scalable/apps/terminal.svg
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+URxvt*letterSpace: 1
+
+!URxvt*font:              
+xft:GohuFont :size=9
+
+URxvt.font: xft:GohuFont :size=12
+URxvt.boldFont:GohuFont:size=12
+
+urxvt*termName:            xterm-256color
+urxvt*scrollBar:        false
+
+! Default shell
+urxvt*shell: /bin/zsh
+
+! Perl scripts
+URxvt.perl-lib: /usr/lib/urxvt/perl/
+URxvt.perl-ext-common: default,clipboard-osc,
+
+urxvt*matcher.button:    1
+URxvt*geometry:            85x30
+!URxvt.depth: 32
+URxvt*cursorBlink: true
+!Colors
+*background:    #151515
+*foreground:    #B39500
+
+! black
+*.color0:       #1F1E22
+*.color8:       #413F48
+
+! red
+*.color1:       #D4BD2B
+*.color9:       #D4BD2B
+
+! green
+*.color2:       #8EC300
+*.color10:      #8EC300
+
+! yellow
+*.color3:       #D4BD2B
+*.color11:      #D4BD2B
+
+! blue
+*.color4:       #754700
+*.color12:      #754700
+
+! magenta
+*.color5:       #926D16
+*.color13:      #926D16
+
+! cyan
+*.color6:       #2D4B4B
+*.color14:      #436E6F
+
+! white
+*.color7:       #A09BAB
+*.color15:      #C7C1D4
