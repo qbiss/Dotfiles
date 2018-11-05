@@ -33,4 +33,4 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 call plug#end() " Initializes plugins
 autocmd VimEnter * NERDTree
-map <silent> <C-n> :NERDTreeFocus<CR>
+map <silent> <C-n> :NERDTreeFocus<CR>.
