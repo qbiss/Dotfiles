@@ -29,4 +29,8 @@ set virtualedit=all
 set wildchar=<TAB>
 set wildmenu
 syntax on
-
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+call plug#end() " Initializes plugins
+autocmd VimEnter * NERDTree
+map <silent> <C-n> :NERDTreeFocus<CR>
